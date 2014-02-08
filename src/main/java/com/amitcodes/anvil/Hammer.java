@@ -42,9 +42,9 @@ public class Hammer
     public static void main( String[] args ) throws Exception
     {
         Hammer hammer = new Hammer();
-        hammer.foo(new URL("http://www.tired.com"), HttpMethodEnum.GET);
-        hammer.foo(new URL("http://www.reddit.com"), HttpMethodEnum.GET);
-        hammer.foo(new URL("http://www.reddit.com/djfhsdf"), HttpMethodEnum.GET);
+//        hammer.foo(new URL("http://www.tired.com"), HttpMethodEnum.GET);
+        hammer.foo(new URL("https://github.com"), HttpMethodEnum.GET);
+//        hammer.foo(new URL("http://www.reddit.com/djfhsdf"), HttpMethodEnum.GET);
     }
 
     public void foo(URL target, HttpMethodEnum httpMethod) throws IOException {

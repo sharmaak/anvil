@@ -13,6 +13,10 @@ public enum HttpMethodEnum {
         this.method = method;
     }
 
+    public boolean isReadOnly() {
+        return method.equals(GET.method) || method.equals(DELETE.method);
+    }
+
     public String toString() {
         return method;
     }
